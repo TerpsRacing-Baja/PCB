@@ -1,0 +1,95 @@
+EESchema Schematic File Version 4
+LIBS:power
+LIBS:device
+LIBS:74xx
+LIBS:audio
+LIBS:interface
+EELAYER 26 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L TR-Baja-Components:CC6-1205SR-E DC?
+U 1 1 5C570E13
+P 5650 3750
+F 0 "DC?" H 5625 4593 60  0000 C CNN
+F 1 "CC6-1205SR-E" H 5625 4487 60  0000 C CNN
+F 2 "" H 5550 3750 60  0001 C CNN
+F 3 "" H 5650 3850 60  0001 C CNN
+F 4 "5V" H 5625 4381 60  0000 C CNN "Voltage"
+	1    5650 3750
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6450 3650 7900 3650
+Wire Wire Line
+	6450 4150 6700 4150
+Wire Wire Line
+	4800 3400 4050 3400
+Wire Wire Line
+	4800 4150 4050 4150
+$Comp
+L Device:R_US R?
+U 1 1 5C570FC5
+P 6950 4650
+F 0 "R?" V 6745 4650 50  0000 C CNN
+F 1 "R_US" V 6836 4650 50  0000 C CNN
+F 2 "" V 6990 4640 50  0001 C CNN
+F 3 "~" H 6950 4650 50  0001 C CNN
+	1    6950 4650
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	6800 4650 6700 4650
+Wire Wire Line
+	6700 4650 6700 4150
+Connection ~ 6700 4150
+Wire Wire Line
+	6700 4150 7900 4150
+$Comp
+L power:GND #PWR?
+U 1 1 5C571250
+P 7700 4750
+F 0 "#PWR?" H 7700 4500 50  0001 C CNN
+F 1 "GND" H 7705 4577 50  0000 C CNN
+F 2 "" H 7700 4750 50  0001 C CNN
+F 3 "" H 7700 4750 50  0001 C CNN
+	1    7700 4750
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:LED D?
+U 1 1 5C5715E1
+P 7400 4650
+F 0 "D?" H 7392 4395 50  0000 C CNN
+F 1 "LED" H 7392 4486 50  0000 C CNN
+F 2 "" H 7400 4650 50  0001 C CNN
+F 3 "~" H 7400 4650 50  0001 C CNN
+	1    7400 4650
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	7100 4650 7250 4650
+Wire Wire Line
+	7550 4650 7700 4650
+Wire Wire Line
+	7700 4650 7700 4750
+Text GLabel 7900 4150 2    50   Input ~ 0
+5V
+Text GLabel 7900 3650 2    50   Input ~ 0
+GND
+Text GLabel 4050 3400 0    50   Input ~ 0
+GND
+Text GLabel 4050 4150 0    50   Input ~ 0
+12V
+$EndSCHEMATC
