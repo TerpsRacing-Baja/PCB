@@ -48,17 +48,6 @@ F 3 "~" H 7450 4250 50  0001 C CNN
 	1    7450 4250
 	-1   0    0    1   
 $EndComp
-$Comp
-L power:GND #PWR0101
-U 1 1 5C59FCD4
-P 7750 4250
-F 0 "#PWR0101" H 7750 4000 50  0001 C CNN
-F 1 "GND" H 7755 4077 50  0000 C CNN
-F 2 "" H 7750 4250 50  0001 C CNN
-F 3 "" H 7750 4250 50  0001 C CNN
-	1    7750 4250
-	0    -1   -1   0   
-$EndComp
 Wire Wire Line
 	7150 4250 7300 4250
 Wire Wire Line
@@ -71,38 +60,10 @@ Wire Wire Line
 	6600 3850 6400 3850
 Connection ~ 6600 3850
 Wire Wire Line
-	6400 3350 6500 3350
-Wire Wire Line
-	4750 3100 4500 3100
-Wire Wire Line
 	4750 3850 4650 3850
-Wire Wire Line
-	4500 3100 4500 4300
-Wire Wire Line
-	4500 4300 5500 4300
-Wire Wire Line
-	6500 4300 6500 3350
-Connection ~ 4500 3100
-Connection ~ 6500 3350
-$Comp
-L power:GND #PWR0102
-U 1 1 5C5A01A6
-P 5500 4300
-F 0 "#PWR0102" H 5500 4050 50  0001 C CNN
-F 1 "GND" H 5505 4127 50  0000 C CNN
-F 2 "" H 5500 4300 50  0001 C CNN
-F 3 "" H 5500 4300 50  0001 C CNN
-	1    5500 4300
-	1    0    0    -1  
-$EndComp
-Connection ~ 5500 4300
-Wire Wire Line
-	5500 4300 6500 4300
 Wire Wire Line
 	4650 3850 4650 2550
 Connection ~ 4650 3850
-Wire Wire Line
-	3700 4650 8350 4650
 $Comp
 L Connector:Conn_01x12_Female J2
 U 1 1 5C5A2B2E
@@ -126,8 +87,6 @@ Wire Wire Line
 	8800 3350 8800 3800
 Wire Wire Line
 	8800 3800 9000 3800
-Wire Wire Line
-	6500 3350 8800 3350
 Wire Wire Line
 	8950 3850 8950 3900
 Wire Wire Line
@@ -183,8 +142,6 @@ Wire Wire Line
 	2600 3100 2600 3900
 Wire Wire Line
 	2600 3900 2500 3900
-Wire Wire Line
-	2600 3100 4500 3100
 Wire Wire Line
 	2700 3850 2700 4000
 Wire Wire Line
@@ -283,4 +240,15 @@ Text GLabel 9200 4600 2    50   Input ~ 0
 A5
 Text GLabel 9200 4700 2    50   Input ~ 0
 A6
+Wire Wire Line
+	6400 3350 7750 3350
+Wire Wire Line
+	3700 4650 8350 4650
+Wire Wire Line
+	2600 3100 4750 3100
+Wire Wire Line
+	7750 4250 7750 3350
+Connection ~ 7750 3350
+Wire Wire Line
+	7750 3350 8800 3350
 $EndSCHEMATC

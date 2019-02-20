@@ -27,11 +27,7 @@ F 4 "5V" H 5625 4381 60  0000 C CNN "Voltage"
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	6450 3650 6550 3650
-Wire Wire Line
 	6450 4150 6700 4150
-Wire Wire Line
-	4800 3400 4650 3400
 Wire Wire Line
 	4800 4150 4450 4150
 $Comp
@@ -51,17 +47,6 @@ Wire Wire Line
 	6700 4650 6700 4150
 Connection ~ 6700 4150
 $Comp
-L power:GND #PWR0101
-U 1 1 5C571250
-P 7700 4650
-F 0 "#PWR0101" H 7700 4400 50  0001 C CNN
-F 1 "GND" H 7705 4477 50  0000 C CNN
-F 2 "" H 7700 4650 50  0001 C CNN
-F 3 "" H 7700 4650 50  0001 C CNN
-	1    7700 4650
-	0    -1   -1   0   
-$EndComp
-$Comp
 L Device:LED D1
 U 1 1 5C5715E1
 P 7400 4650
@@ -74,36 +59,10 @@ F 3 "~" H 7400 4650 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	7100 4650 7250 4650
-Wire Wire Line
-	7550 4650 7700 4650
 Text GLabel 9100 3700 2    50   Input ~ 0
 5V
 Text GLabel 9100 3600 2    50   Input ~ 0
 GND
-Wire Wire Line
-	6550 3650 6550 4650
-Wire Wire Line
-	6550 4650 5600 4650
-Wire Wire Line
-	4650 4650 4650 3400
-Connection ~ 6550 3650
-Connection ~ 4650 3400
-Wire Wire Line
-	4650 3400 4050 3400
-$Comp
-L power:GND #PWR0102
-U 1 1 5C57107A
-P 5600 4650
-F 0 "#PWR0102" H 5600 4400 50  0001 C CNN
-F 1 "GND" H 5605 4477 50  0000 C CNN
-F 2 "" H 5600 4650 50  0001 C CNN
-F 3 "" H 5600 4650 50  0001 C CNN
-	1    5600 4650
-	1    0    0    -1  
-$EndComp
-Connection ~ 5600 4650
-Wire Wire Line
-	5600 4650 4650 4650
 $Comp
 L Connector:Conn_01x09_Female J2
 U 1 1 5C571501
@@ -188,8 +147,6 @@ Wire Wire Line
 Wire Wire Line
 	8150 3600 8900 3600
 Wire Wire Line
-	6550 3650 8150 3650
-Wire Wire Line
 	8200 4150 8200 3700
 Wire Wire Line
 	8200 3700 8900 3700
@@ -247,4 +204,15 @@ Text GLabel 9100 4100 2    50   Input ~ 0
 A2
 Text GLabel 9100 4200 2    50   Input ~ 0
 A3
+Wire Wire Line
+	4050 3400 4800 3400
+Wire Wire Line
+	6450 3650 7750 3650
+Wire Wire Line
+	7550 4650 7750 4650
+Wire Wire Line
+	7750 4650 7750 3650
+Connection ~ 7750 3650
+Wire Wire Line
+	7750 3650 8150 3650
 $EndSCHEMATC
