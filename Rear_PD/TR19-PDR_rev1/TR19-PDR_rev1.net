@@ -1,7 +1,7 @@
 (export (version D)
   (design
     (source "C:\\TR Git\\PCB\\Rear_PD\\TR19-PDR_rev1\\TR19-PDR_rev1.sch")
-    (date "2/17/2019 1:41:47 PM")
+    (date "2/19/2019 6:03:12 PM")
     (tool "Eeschema (5.0.2)-1")
     (sheet (number 1) (name /) (tstamps /)
       (title_block
