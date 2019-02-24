@@ -20,7 +20,7 @@ U 1 1 5C5A00C8
 P 7050 2850
 F 0 "D2" H 7050 2634 50  0000 C CNN
 F 1 "D_Zener" H 7050 2725 50  0000 C CNN
-F 2 "" H 7050 2850 50  0001 C CNN
+F 2 "Diode_SMD:D_1806_4516Metric_Pad1.57x1.80mm_HandSolder" H 7050 2850 50  0001 C CNN
 F 3 "~" H 7050 2850 50  0001 C CNN
 	1    7050 2850
 	1    0    0    -1  
@@ -47,27 +47,12 @@ F 3 "~" H 8050 2850 50  0001 C CNN
 	1    8050 2850
 	-1   0    0    1   
 $EndComp
-$Comp
-L power:GND #PWR0101
-U 1 1 5C5A0371
-P 8400 2850
-F 0 "#PWR0101" H 8400 2600 50  0001 C CNN
-F 1 "GND" V 8405 2722 50  0000 R CNN
-F 2 "" H 8400 2850 50  0001 C CNN
-F 3 "" H 8400 2850 50  0001 C CNN
-	1    8400 2850
-	0    -1   -1   0   
-$EndComp
 Wire Wire Line
 	7200 2850 7400 2850
 Wire Wire Line
 	7700 2850 7900 2850
 Wire Wire Line
-	8200 2850 8400 2850
-Wire Wire Line
 	6650 3250 6750 3250
-Wire Wire Line
-	6650 3500 7650 3500
 Wire Wire Line
 	6650 4000 8500 4000
 $Comp
@@ -87,7 +72,7 @@ U 1 1 5C5A0817
 P 7150 4350
 F 0 "D3" H 7150 4134 50  0000 C CNN
 F 1 "D_Zener" H 7150 4225 50  0000 C CNN
-F 2 "" H 7150 4350 50  0001 C CNN
+F 2 "Diode_SMD:D_1806_4516Metric_Pad1.57x1.80mm_HandSolder" H 7150 4350 50  0001 C CNN
 F 3 "~" H 7150 4350 50  0001 C CNN
 	1    7150 4350
 	1    0    0    -1  
@@ -114,17 +99,6 @@ F 3 "~" H 8150 4350 50  0001 C CNN
 	1    8150 4350
 	-1   0    0    1   
 $EndComp
-$Comp
-L power:GND #PWR0102
-U 1 1 5C5A082C
-P 7000 4350
-F 0 "#PWR0102" H 7000 4100 50  0001 C CNN
-F 1 "GND" V 7005 4222 50  0000 R CNN
-F 2 "" H 7000 4350 50  0001 C CNN
-F 3 "" H 7000 4350 50  0001 C CNN
-	1    7000 4350
-	0    1    1    0   
-$EndComp
 Wire Wire Line
 	7300 4350 7500 4350
 Wire Wire Line
@@ -139,18 +113,6 @@ Wire Wire Line
 Wire Wire Line
 	6750 2850 6750 3250
 Connection ~ 6750 3250
-$Comp
-L power:GND #PWR0103
-U 1 1 5C5A0E54
-P 7650 3500
-F 0 "#PWR0103" H 7650 3250 50  0001 C CNN
-F 1 "GND" H 7655 3327 50  0000 C CNN
-F 2 "" H 7650 3500 50  0001 C CNN
-F 3 "" H 7650 3500 50  0001 C CNN
-	1    7650 3500
-	1    0    0    -1  
-$EndComp
-Connection ~ 7650 3500
 Wire Wire Line
 	3350 3250 3700 3250
 Wire Wire Line
@@ -167,23 +129,12 @@ F 3 "~" H 3850 3550 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L Switch:SW_SPST SW1
-U 1 1 5C5A21CD
-P 4200 3550
-F 0 "SW1" H 4200 3785 50  0000 C CNN
-F 1 "SW_SPST" H 4200 3694 50  0000 C CNN
-F 2 "" H 4200 3550 50  0001 C CNN
-F 3 "" H 4200 3550 50  0001 C CNN
-	1    4200 3550
-	1    0    0    -1  
-$EndComp
-$Comp
 L Device:D_Zener D1
 U 1 1 5C5A2317
 P 3950 3800
 F 0 "D1" H 3950 4016 50  0000 C CNN
 F 1 "D_Zener" H 3950 3925 50  0000 C CNN
-F 2 "" H 3950 3800 50  0001 C CNN
+F 2 "Diode_SMD:D_1806_4516Metric_Pad1.57x1.80mm_HandSolder" H 3950 3800 50  0001 C CNN
 F 3 "~" H 3950 3800 50  0001 C CNN
 	1    3950 3800
 	-1   0    0    1   
@@ -254,8 +205,6 @@ Wire Wire Line
 Wire Wire Line
 	9450 3500 9450 3550
 Wire Wire Line
-	7650 3500 9450 3500
-Wire Wire Line
 	9450 4000 9450 3650
 Wire Wire Line
 	8500 4000 9450 4000
@@ -269,4 +218,40 @@ Text GLabel 9650 3550 2    50   Input ~ 0
 GND
 Text GLabel 9650 3650 2    50   Input ~ 0
 -12V
+Wire Wire Line
+	8500 2850 8500 3500
+Wire Wire Line
+	8200 2850 8500 2850
+Connection ~ 8500 3500
+Wire Wire Line
+	8500 3500 9450 3500
+Wire Wire Line
+	6650 3500 7000 3500
+Wire Wire Line
+	7000 4350 7000 3500
+Connection ~ 7000 3500
+Wire Wire Line
+	7000 3500 8500 3500
+$Comp
+L Connector:Conn_01x01_Female J3
+U 1 1 5C7257E0
+P 4200 3550
+F 0 "J3" H 4227 3576 50  0000 L CNN
+F 1 "SW1" H 4227 3485 50  0000 L CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Horizontal" H 4200 3550 50  0001 C CNN
+F 3 "~" H 4200 3550 50  0001 C CNN
+	1    4200 3550
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:Conn_01x01_Female J4
+U 1 1 5C7258B9
+P 4400 3350
+F 0 "J4" V 4340 3262 50  0000 R CNN
+F 1 "SW2" V 4249 3262 50  0000 R CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Horizontal" H 4400 3350 50  0001 C CNN
+F 3 "~" H 4400 3350 50  0001 C CNN
+	1    4400 3350
+	0    -1   -1   0   
+$EndComp
 $EndSCHEMATC
