@@ -1,0 +1,54 @@
+EESchema Schematic File Version 4
+EELAYER 26 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L TR-Baja-Components:SUCW61212B-ND DC?
+U 1 1 5C786F0C
+P 4150 4100
+F 0 "DC?" H 4125 4815 50  0000 C CNN
+F 1 "SUCW61212B-ND" H 4125 4724 50  0000 C CNN
+F 2 "" H 4100 4200 50  0001 C CNN
+F 3 "" H 4100 4200 50  0001 C CNN
+	1    4150 4100
+	1    0    0    -1  
+$EndComp
+$Comp
+L TR-Baja-Components:CC6-1205SR-E DC?
+U 1 1 5C786FA9
+P 7050 4100
+F 0 "DC?" H 7025 4943 60  0000 C CNN
+F 1 "CC6-1205SR-E" H 7025 4837 60  0000 C CNN
+F 2 "" H 6950 4100 60  0001 C CNN
+F 3 "" H 7050 4200 60  0001 C CNN
+F 4 "5V" H 7025 4731 60  0000 C CNN "Voltage"
+	1    7050 4100
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3300 3750 1700 3750
+Wire Wire Line
+	3300 4500 1700 4500
+$Comp
+L Device:R_US R?
+U 1 1 5C7870F5
+P 2200 4050
+F 0 "R?" V 1995 4050 50  0000 C CNN
+F 1 "R_US" V 2086 4050 50  0000 C CNN
+F 2 "" V 2240 4040 50  0001 C CNN
+F 3 "~" H 2200 4050 50  0001 C CNN
+	1    2200 4050
+	0    1    1    0   
+$EndComp
+$EndSCHEMATC
