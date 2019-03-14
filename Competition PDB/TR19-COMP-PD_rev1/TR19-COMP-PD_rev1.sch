@@ -37,75 +37,50 @@ F 4 "5V" H 6075 4731 60  0000 C CNN "Voltage"
 	1    6100 4100
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	3300 3750 1850 3750
-Wire Wire Line
-	3300 4500 2750 4500
 $Comp
 L Device:R_US R?
 U 1 1 5C7870F5
-P 2000 4000
-F 0 "R?" V 1795 4000 50  0000 C CNN
-F 1 "R_US" V 1886 4000 50  0000 C CNN
-F 2 "" V 2040 3990 50  0001 C CNN
-F 3 "~" H 2000 4000 50  0001 C CNN
-	1    2000 4000
+P 3250 2150
+F 0 "R?" V 3045 2150 50  0000 C CNN
+F 1 "R_19" V 3136 2150 50  0000 C CNN
+F 2 "" V 3290 2140 50  0001 C CNN
+F 3 "~" H 3250 2150 50  0001 C CNN
+	1    3250 2150
 	0    1    1    0   
 $EndComp
 $Comp
 L Connector:Conn_01x01_Female J?
 U 1 1 5C78711D
-P 2350 4000
-F 0 "J?" H 2377 4026 50  0000 L CNN
-F 1 "SW1" H 2377 3935 50  0000 L CNN
-F 2 "" H 2350 4000 50  0001 C CNN
-F 3 "~" H 2350 4000 50  0001 C CNN
-	1    2350 4000
+P 3600 2150
+F 0 "J?" H 3627 2176 50  0000 L CNN
+F 1 "SW1" H 3627 2085 50  0000 L CNN
+F 2 "" H 3600 2150 50  0001 C CNN
+F 3 "~" H 3600 2150 50  0001 C CNN
+	1    3600 2150
 	1    0    0    -1  
 $EndComp
 $Comp
 L Connector:Conn_01x01_Female J?
 U 1 1 5C787173
-P 2600 4000
-F 0 "J?" H 2494 3775 50  0000 C CNN
-F 1 "SW2" H 2494 3866 50  0000 C CNN
-F 2 "" H 2600 4000 50  0001 C CNN
-F 3 "~" H 2600 4000 50  0001 C CNN
-	1    2600 4000
+P 3800 2150
+F 0 "J?" H 3694 1925 50  0000 C CNN
+F 1 "SW2" H 3694 2016 50  0000 C CNN
+F 2 "" H 3800 2150 50  0001 C CNN
+F 3 "~" H 3800 2150 50  0001 C CNN
+	1    3800 2150
 	-1   0    0    1   
 $EndComp
-Wire Wire Line
-	1850 4000 1850 3750
-Connection ~ 1850 3750
 $Comp
 L Device:D_Zener D?
 U 1 1 5C78723D
-P 2900 4300
-F 0 "D?" H 2900 4084 50  0000 C CNN
-F 1 "7V_Zener" H 2900 4175 50  0000 C CNN
-F 2 "" H 2900 4300 50  0001 C CNN
-F 3 "~" H 2900 4300 50  0001 C CNN
-	1    2900 4300
-	-1   0    0    1   
+P 4300 2800
+F 0 "D?" H 4300 2584 50  0000 C CNN
+F 1 "5V_Zener" H 4300 2675 50  0000 C CNN
+F 2 "" H 4300 2800 50  0001 C CNN
+F 3 "~" H 4300 2800 50  0001 C CNN
+	1    4300 2800
+	0    1    1    0   
 $EndComp
-Wire Wire Line
-	2750 4300 2750 4500
-Connection ~ 2750 4500
-Wire Wire Line
-	2750 4500 1700 4500
-Wire Wire Line
-	2800 4000 3150 4000
-Wire Wire Line
-	3050 4300 3150 4300
-Wire Wire Line
-	3150 4300 3150 4000
-Connection ~ 3150 4000
-Wire Wire Line
-	3150 4000 3300 4000
-Wire Wire Line
-	4950 4500 5050 4500
-Wire Wire Line
-	5050 4500 5050 4850
 Wire Wire Line
 	4950 3750 5150 3750
 Wire Wire Line
@@ -118,10 +93,6 @@ Wire Wire Line
 	5200 4000 5200 3750
 Wire Wire Line
 	5200 3750 5250 3750
-Wire Wire Line
-	6900 4500 7550 4500
-Wire Wire Line
-	6900 4000 7550 4000
 $Comp
 L Connector:Conn_01x09_Female J?
 U 1 1 5C787BFB
@@ -133,8 +104,6 @@ F 3 "~" H 1050 4150 50  0001 C CNN
 	1    1050 4150
 	-1   0    0    -1  
 $EndComp
-Wire Wire Line
-	1250 3750 1850 3750
 Wire Wire Line
 	1700 4500 1700 3850
 Wire Wire Line
@@ -157,4 +126,416 @@ Text GLabel 1050 4450 0    50   Input ~ 0
 B2
 Text GLabel 1050 4550 0    50   Input ~ 0
 B3
+$Comp
+L Device:LED_ARGB D?
+U 1 1 5C8AEA54
+P 3350 5300
+F 0 "D?" V 3396 4970 50  0000 R CNN
+F 1 "L1" V 3305 4970 50  0000 R CNN
+F 2 "" H 3350 5250 50  0001 C CNN
+F 3 "~" H 3350 5250 50  0001 C CNN
+	1    3350 5300
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:LED_ARGB D?
+U 1 1 5C8AEB3A
+P 4150 5300
+F 0 "D?" V 4196 4970 50  0000 R CNN
+F 1 "L2" V 4105 4970 50  0000 R CNN
+F 2 "" H 4150 5250 50  0001 C CNN
+F 3 "~" H 4150 5250 50  0001 C CNN
+	1    4150 5300
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:LED_ARGB D?
+U 1 1 5C8AECF3
+P 4950 5300
+F 0 "D?" V 4996 4970 50  0000 R CNN
+F 1 "L3" V 4905 4970 50  0000 R CNN
+F 2 "" H 4950 5250 50  0001 C CNN
+F 3 "~" H 4950 5250 50  0001 C CNN
+	1    4950 5300
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:LED_ARGB D?
+U 1 1 5C8AEEC9
+P 5750 5300
+F 0 "D?" V 5796 4970 50  0000 R CNN
+F 1 "L4" V 5705 4970 50  0000 R CNN
+F 2 "" H 5750 5250 50  0001 C CNN
+F 3 "~" H 5750 5250 50  0001 C CNN
+	1    5750 5300
+	0    -1   -1   0   
+$EndComp
+Text GLabel 6900 4000 2    50   Input ~ 0
+GND
+$Comp
+L Device:R_US R?
+U 1 1 5C8AF3BB
+P 3150 5650
+F 0 "R?" H 3082 5696 50  0000 R CNN
+F 1 "R1" H 3082 5605 50  0000 R CNN
+F 2 "" V 3190 5640 50  0001 C CNN
+F 3 "~" H 3150 5650 50  0001 C CNN
+	1    3150 5650
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Device:R_US R?
+U 1 1 5C8AFF53
+P 3350 5650
+F 0 "R?" H 3282 5696 50  0000 R CNN
+F 1 "R2" H 3282 5605 50  0000 R CNN
+F 2 "" V 3390 5640 50  0001 C CNN
+F 3 "~" H 3350 5650 50  0001 C CNN
+	1    3350 5650
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Device:R_US R?
+U 1 1 5C8B0108
+P 3550 5650
+F 0 "R?" H 3482 5696 50  0000 R CNN
+F 1 "R3" H 3482 5605 50  0000 R CNN
+F 2 "" V 3590 5640 50  0001 C CNN
+F 3 "~" H 3550 5650 50  0001 C CNN
+	1    3550 5650
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Device:R_US R?
+U 1 1 5C8B036F
+P 3950 5650
+F 0 "R?" H 3882 5696 50  0000 R CNN
+F 1 "R4" H 3882 5605 50  0000 R CNN
+F 2 "" V 3990 5640 50  0001 C CNN
+F 3 "~" H 3950 5650 50  0001 C CNN
+	1    3950 5650
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Device:R_US R?
+U 1 1 5C8B0376
+P 4150 5650
+F 0 "R?" H 4082 5696 50  0000 R CNN
+F 1 "R5" H 4082 5605 50  0000 R CNN
+F 2 "" V 4190 5640 50  0001 C CNN
+F 3 "~" H 4150 5650 50  0001 C CNN
+	1    4150 5650
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Device:R_US R?
+U 1 1 5C8B037D
+P 4350 5650
+F 0 "R?" H 4282 5696 50  0000 R CNN
+F 1 "R6" H 4282 5605 50  0000 R CNN
+F 2 "" V 4390 5640 50  0001 C CNN
+F 3 "~" H 4350 5650 50  0001 C CNN
+	1    4350 5650
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Device:R_US R?
+U 1 1 5C8B0568
+P 4750 5650
+F 0 "R?" H 4682 5696 50  0000 R CNN
+F 1 "R7" H 4682 5605 50  0000 R CNN
+F 2 "" V 4790 5640 50  0001 C CNN
+F 3 "~" H 4750 5650 50  0001 C CNN
+	1    4750 5650
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Device:R_US R?
+U 1 1 5C8B056F
+P 4950 5650
+F 0 "R?" H 4882 5696 50  0000 R CNN
+F 1 "R8" H 4882 5605 50  0000 R CNN
+F 2 "" V 4990 5640 50  0001 C CNN
+F 3 "~" H 4950 5650 50  0001 C CNN
+	1    4950 5650
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Device:R_US R?
+U 1 1 5C8B0576
+P 5150 5650
+F 0 "R?" H 5082 5696 50  0000 R CNN
+F 1 "R9" H 5082 5605 50  0000 R CNN
+F 2 "" V 5190 5640 50  0001 C CNN
+F 3 "~" H 5150 5650 50  0001 C CNN
+	1    5150 5650
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Device:R_US R?
+U 1 1 5C8B0752
+P 5550 5650
+F 0 "R?" H 5482 5696 50  0000 R CNN
+F 1 "R10" H 5482 5605 50  0000 R CNN
+F 2 "" V 5590 5640 50  0001 C CNN
+F 3 "~" H 5550 5650 50  0001 C CNN
+	1    5550 5650
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Device:R_US R?
+U 1 1 5C8B0759
+P 5750 5650
+F 0 "R?" H 5682 5696 50  0000 R CNN
+F 1 "R11" H 5682 5605 50  0000 R CNN
+F 2 "" V 5790 5640 50  0001 C CNN
+F 3 "~" H 5750 5650 50  0001 C CNN
+	1    5750 5650
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Device:R_US R?
+U 1 1 5C8B0760
+P 5950 5650
+F 0 "R?" H 5882 5696 50  0000 R CNN
+F 1 "R12" H 5882 5605 50  0000 R CNN
+F 2 "" V 5990 5640 50  0001 C CNN
+F 3 "~" H 5950 5650 50  0001 C CNN
+	1    5950 5650
+	-1   0    0    -1  
+$EndComp
+Text GLabel 3350 5100 1    50   Input ~ 0
+5V
+Text GLabel 4150 5100 1    50   Input ~ 0
+5V
+Text GLabel 4950 5100 1    50   Input ~ 0
+5V
+Text GLabel 5750 5100 1    50   Input ~ 0
+5V
+Text GLabel 6900 4500 2    50   Input ~ 0
+5V
+Text GLabel 3150 5800 3    50   Input ~ 0
+PWM1
+Text GLabel 3350 5800 3    50   Input ~ 0
+PWM2
+Text GLabel 3550 5800 3    50   Input ~ 0
+PWM3
+Text GLabel 3950 5800 3    50   Input ~ 0
+PWM4
+Text GLabel 4150 5800 3    50   Input ~ 0
+PWM5
+Text GLabel 4350 5800 3    50   Input ~ 0
+PWM6
+Text GLabel 4750 5800 3    50   Input ~ 0
+PWM7
+Text GLabel 4950 5800 3    50   Input ~ 0
+PWM8
+Text GLabel 5150 5800 3    50   Input ~ 0
+PWM9
+Text GLabel 5550 5800 3    50   Input ~ 0
+PWM10
+Text GLabel 5750 5800 3    50   Input ~ 0
+PWM11
+Text GLabel 5950 5800 3    50   Input ~ 0
+PWM12
+$Comp
+L Device:LED_ARGB D?
+U 1 1 5C8B4036
+P 6550 5300
+F 0 "D?" V 6596 4970 50  0000 R CNN
+F 1 "CVT Select LED" V 6505 4970 50  0000 R CNN
+F 2 "" H 6550 5250 50  0001 C CNN
+F 3 "~" H 6550 5250 50  0001 C CNN
+	1    6550 5300
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:R_US R?
+U 1 1 5C8B403D
+P 6350 5650
+F 0 "R?" H 6282 5696 50  0000 R CNN
+F 1 "R13" H 6282 5605 50  0000 R CNN
+F 2 "" V 6390 5640 50  0001 C CNN
+F 3 "~" H 6350 5650 50  0001 C CNN
+	1    6350 5650
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Device:R_US R?
+U 1 1 5C8B4044
+P 6550 5650
+F 0 "R?" H 6482 5696 50  0000 R CNN
+F 1 "R14" H 6482 5605 50  0000 R CNN
+F 2 "" V 6590 5640 50  0001 C CNN
+F 3 "~" H 6550 5650 50  0001 C CNN
+	1    6550 5650
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Device:R_US R?
+U 1 1 5C8B404B
+P 6750 5650
+F 0 "R?" H 6682 5696 50  0000 R CNN
+F 1 "R15" H 6682 5605 50  0000 R CNN
+F 2 "" V 6790 5640 50  0001 C CNN
+F 3 "~" H 6750 5650 50  0001 C CNN
+	1    6750 5650
+	-1   0    0    -1  
+$EndComp
+Text GLabel 6550 5100 1    50   Input ~ 0
+5V
+Text GLabel 6350 5800 3    50   Input ~ 0
+PWM13
+Text GLabel 6550 5800 3    50   Input ~ 0
+PWM14
+Text GLabel 6750 5800 3    50   Input ~ 0
+PWM15
+$Comp
+L Connector:Conn_01x01_Female J?
+U 1 1 5C8B51A3
+P 5000 3050
+F 0 "J?" H 5027 3076 50  0000 L CNN
+F 1 "SW3" H 5027 2985 50  0000 L CNN
+F 2 "" H 5000 3050 50  0001 C CNN
+F 3 "~" H 5000 3050 50  0001 C CNN
+	1    5000 3050
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:Conn_01x01_Female J?
+U 1 1 5C8B51AA
+P 5250 3050
+F 0 "J?" H 5144 2825 50  0000 C CNN
+F 1 "SW4" H 5144 2916 50  0000 C CNN
+F 2 "" H 5250 3050 50  0001 C CNN
+F 3 "~" H 5250 3050 50  0001 C CNN
+	1    5250 3050
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:LED D?
+U 1 1 5C8B56B9
+P 5600 3050
+F 0 "D?" H 5592 2795 50  0000 C CNN
+F 1 "PTT LED" H 5592 2886 50  0000 C CNN
+F 2 "" H 5600 3050 50  0001 C CNN
+F 3 "~" H 5600 3050 50  0001 C CNN
+	1    5600 3050
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:R_US R?
+U 1 1 5C8B58CD
+P 5900 3050
+F 0 "R?" V 5695 3050 50  0000 C CNN
+F 1 "R16" V 5786 3050 50  0000 C CNN
+F 2 "" V 5940 3040 50  0001 C CNN
+F 3 "~" H 5900 3050 50  0001 C CNN
+	1    5900 3050
+	0    1    1    0   
+$EndComp
+Text GLabel 6050 3050 2    50   Input ~ 0
+GND
+Text GLabel 4800 3050 0    50   Input ~ 0
+5V
+$Comp
+L Device:Q_PJFET_DGS Q?
+U 1 1 5C8B612B
+P 4200 2150
+F 0 "Q?" H 4391 2196 50  0000 L CNN
+F 1 "Q_PJFET_DGS" H 4391 2105 50  0000 L CNN
+F 2 "" H 4400 2250 50  0001 C CNN
+F 3 "~" H 4200 2150 50  0001 C CNN
+	1    4200 2150
+	1    0    0    1   
+$EndComp
+Wire Wire Line
+	1250 3750 3300 3750
+$Comp
+L Device:R_US R?
+U 1 1 5C8B6C1A
+P 4000 2400
+F 0 "R?" V 3795 2400 50  0000 C CNN
+F 1 "R_17" V 3886 2400 50  0000 C CNN
+F 2 "" V 4040 2390 50  0001 C CNN
+F 3 "~" H 4000 2400 50  0001 C CNN
+	1    4000 2400
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	4000 2250 4000 2150
+Connection ~ 4000 2150
+Text GLabel 4300 1950 1    50   Input ~ 0
+Batt(+)
+$Comp
+L Device:R_US R?
+U 1 1 5C8B8AE2
+P 4300 2500
+F 0 "R?" V 4095 2500 50  0000 C CNN
+F 1 "R_18" V 4186 2500 50  0000 C CNN
+F 2 "" V 4340 2490 50  0001 C CNN
+F 3 "~" H 4300 2500 50  0001 C CNN
+	1    4300 2500
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	1700 4500 3300 4500
+Text GLabel 3300 4000 0    50   Input ~ 0
+RC
+Text GLabel 4300 2650 2    50   Input ~ 0
+RC
+Text GLabel 4300 2950 3    50   Input ~ 0
+Batt(-)
+Text GLabel 3100 2150 0    50   Input ~ 0
+Batt(+)
+Text GLabel 4000 2550 3    50   Input ~ 0
+Batt(-)
+$Comp
+L Connector:Conn_01x01_Female J?
+U 1 1 5C8BA64F
+P 2650 2550
+F 0 "J?" H 2677 2576 50  0000 L CNN
+F 1 "SW1" H 2677 2485 50  0000 L CNN
+F 2 "" H 2650 2550 50  0001 C CNN
+F 3 "~" H 2650 2550 50  0001 C CNN
+	1    2650 2550
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:Conn_01x01_Female J?
+U 1 1 5C8BA656
+P 2900 2550
+F 0 "J?" H 2794 2325 50  0000 C CNN
+F 1 "SW2" H 2794 2416 50  0000 C CNN
+F 2 "" H 2900 2550 50  0001 C CNN
+F 3 "~" H 2900 2550 50  0001 C CNN
+	1    2900 2550
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:LED D?
+U 1 1 5C8BA65D
+P 3250 2550
+F 0 "D?" H 3242 2295 50  0000 C CNN
+F 1 "PWR LED" H 3242 2386 50  0000 C CNN
+F 2 "" H 3250 2550 50  0001 C CNN
+F 3 "~" H 3250 2550 50  0001 C CNN
+	1    3250 2550
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:R_US R?
+U 1 1 5C8BA664
+P 3550 2550
+F 0 "R?" V 3345 2550 50  0000 C CNN
+F 1 "R20" V 3436 2550 50  0000 C CNN
+F 2 "" V 3590 2540 50  0001 C CNN
+F 3 "~" H 3550 2550 50  0001 C CNN
+	1    3550 2550
+	0    1    1    0   
+$EndComp
+Text GLabel 3700 2550 2    50   Input ~ 0
+GND
+Text GLabel 2450 2550 0    50   Input ~ 0
+5V
 $EndSCHEMATC
