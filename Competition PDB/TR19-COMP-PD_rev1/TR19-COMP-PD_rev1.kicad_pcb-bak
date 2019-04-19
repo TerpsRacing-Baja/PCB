@@ -2,7 +2,7 @@
 
   (general
     (thickness 1.6)
-    (drawings 6)
+    (drawings 0)
     (tracks 812)
     (zones 0)
     (modules 118)
@@ -5482,13 +5482,6 @@
     (pad 1 thru_hole rect (at -7.62 -15.24 270) (size 1.2954 1.2954) (drill 0.7874) (layers *.Cu *.Mask)
       (net 52 DIG26))
   )
-
-  (gr_line (start 57.15 56.515) (end 63.5 56.515) (layer F.SilkS) (width 0.2))
-  (gr_line (start 57.15 156.21) (end 57.15 56.515) (layer F.SilkS) (width 0.2))
-  (gr_line (start 241.3 156.21) (end 57.15 156.21) (layer F.SilkS) (width 0.2))
-  (gr_line (start 241.3 155.575) (end 241.3 156.21) (layer F.SilkS) (width 0.2))
-  (gr_line (start 241.3 56.515) (end 241.3 155.575) (layer F.SilkS) (width 0.2))
-  (gr_line (start 63.5 56.515) (end 241.3 56.515) (layer F.SilkS) (width 0.2))
 
   (segment (start 129.286 76.3) (end 129.286 72.74) (width 0.25) (layer B.Cu) (net 1))
   (segment (start 129.286 77.82) (end 129.286 76.3) (width 0.25) (layer B.Cu) (net 1))
