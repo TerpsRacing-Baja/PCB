@@ -1,123 +1,11 @@
 EESchema-LIBRARY Version 2.4
 #encoding utf-8
 #
-# Connector_Conn_01x02_Female
+# ArduinoDue-TR-Baja-Components
 #
-DEF Connector_Conn_01x02_Female J 0 40 Y N 1 F N
-F0 "J" 0 100 50 H V C CNN
-F1 "Connector_Conn_01x02_Female" 0 -200 50 H V C CNN
-F2 "" 0 0 50 H I C CNN
-F3 "" 0 0 50 H I C CNN
-$FPLIST
- Connector*:*_1x??_*
-$ENDFPLIST
-DRAW
-A 0 -100 20 901 -901 1 1 6 N 0 -80 0 -120
-A 0 0 20 901 -901 1 1 6 N 0 20 0 -20
-P 2 1 1 6 -50 -100 -20 -100 N
-P 2 1 1 6 -50 0 -20 0 N
-X Pin_1 1 -200 0 150 R 50 50 1 1 P
-X Pin_2 2 -200 -100 150 R 50 50 1 1 P
-ENDDRAW
-ENDDEF
-#
-# Connector_Conn_01x03_Female
-#
-DEF Connector_Conn_01x03_Female J 0 40 Y N 1 F N
-F0 "J" 0 200 50 H V C CNN
-F1 "Connector_Conn_01x03_Female" 0 -200 50 H V C CNN
-F2 "" 0 0 50 H I C CNN
-F3 "" 0 0 50 H I C CNN
-$FPLIST
- Connector*:*_1x??_*
-$ENDFPLIST
-DRAW
-A 0 -100 20 901 -901 1 1 6 N 0 -80 0 -120
-A 0 0 20 901 -901 1 1 6 N 0 20 0 -20
-A 0 100 20 901 -901 1 1 6 N 0 120 0 80
-P 2 1 1 6 -50 -100 -20 -100 N
-P 2 1 1 6 -50 0 -20 0 N
-P 2 1 1 6 -50 100 -20 100 N
-X Pin_1 1 -200 100 150 R 50 50 1 1 P
-X Pin_2 2 -200 0 150 R 50 50 1 1 P
-X Pin_3 3 -200 -100 150 R 50 50 1 1 P
-ENDDRAW
-ENDDEF
-#
-# Connector_Conn_01x04_Female
-#
-DEF Connector_Conn_01x04_Female J 0 40 Y N 1 F N
-F0 "J" 0 200 50 H V C CNN
-F1 "Connector_Conn_01x04_Female" 0 -300 50 H V C CNN
-F2 "" 0 0 50 H I C CNN
-F3 "" 0 0 50 H I C CNN
-$FPLIST
- Connector*:*_1x??_*
-$ENDFPLIST
-DRAW
-A 0 -200 20 901 -901 1 1 6 N 0 -180 0 -220
-A 0 -100 20 901 -901 1 1 6 N 0 -80 0 -120
-A 0 0 20 901 -901 1 1 6 N 0 20 0 -20
-A 0 100 20 901 -901 1 1 6 N 0 120 0 80
-P 2 1 1 6 -50 -200 -20 -200 N
-P 2 1 1 6 -50 -100 -20 -100 N
-P 2 1 1 6 -50 0 -20 0 N
-P 2 1 1 6 -50 100 -20 100 N
-X Pin_1 1 -200 100 150 R 50 50 1 1 P
-X Pin_2 2 -200 0 150 R 50 50 1 1 P
-X Pin_3 3 -200 -100 150 R 50 50 1 1 P
-X Pin_4 4 -200 -200 150 R 50 50 1 1 P
-ENDDRAW
-ENDDEF
-#
-# Device_D_Zener
-#
-DEF Device_D_Zener D 0 40 N N 1 F N
-F0 "D" 0 100 50 H V C CNN
-F1 "Device_D_Zener" 0 -100 50 H V C CNN
-F2 "" 0 0 50 H I C CNN
-F3 "" 0 0 50 H I C CNN
-$FPLIST
- TO-???*
- *_Diode_*
- *SingleDiode*
- D_*
-$ENDFPLIST
-DRAW
-P 2 0 1 0 50 0 -50 0 N
-P 3 0 1 8 -50 -50 -50 50 -30 50 N
-P 4 0 1 8 50 -50 50 50 -50 0 50 -50 N
-X K 1 -150 0 100 R 50 50 1 1 P
-X A 2 150 0 100 L 50 50 1 1 P
-ENDDRAW
-ENDDEF
-#
-# Device_R_US
-#
-DEF Device_R_US R 0 0 N Y 1 F N
-F0 "R" 100 0 50 V V C CNN
-F1 "Device_R_US" -100 0 50 V V C CNN
-F2 "" 40 -10 50 V I C CNN
-F3 "" 0 0 50 H I C CNN
-$FPLIST
- R_*
-$ENDFPLIST
-DRAW
-P 2 0 1 0 0 -90 0 -100 N
-P 2 0 1 0 0 90 0 100 N
-P 5 0 1 0 0 -30 40 -45 0 -60 -40 -75 0 -90 N
-P 5 0 1 0 0 30 40 15 0 0 -40 -15 0 -30 N
-P 5 0 1 0 0 90 40 75 0 60 -40 45 0 30 N
-X ~ 1 0 150 50 D 50 50 1 1 P
-X ~ 2 0 -150 50 U 50 50 1 1 P
-ENDDRAW
-ENDDEF
-#
-# TR19-COMP-PD_rev1-rescue_ArduinoDue-TR-Baja-Components
-#
-DEF TR19-COMP-PD_rev1-rescue_ArduinoDue-TR-Baja-Components AD 0 40 Y Y 1 F N
+DEF ArduinoDue-TR-Baja-Components AD 0 40 Y Y 1 F N
 F0 "AD" -550 550 60 H V C CNN
-F1 "TR19-COMP-PD_rev1-rescue_ArduinoDue-TR-Baja-Components" -550 700 60 H V C CNN
+F1 "ArduinoDue-TR-Baja-Components" -550 700 60 H V C CNN
 F2 "" -550 700 60 H I C CNN
 F3 "" -550 700 60 H I C CNN
 DRAW
@@ -191,11 +79,11 @@ X ~ V_IN -1950 2000 200 R 50 50 1 1 W
 ENDDRAW
 ENDDEF
 #
-# TR19-COMP-PD_rev1-rescue_CC6-1205SR-E-TR-Baja-Components
+# CC6-1205SR-E-TR-Baja-Components
 #
-DEF TR19-COMP-PD_rev1-rescue_CC6-1205SR-E-TR-Baja-Components DC 0 40 Y Y 1 F N
+DEF CC6-1205SR-E-TR-Baja-Components DC 0 40 Y Y 1 F N
 F0 "DC" 0 100 60 H V C CNN
-F1 "TR19-COMP-PD_rev1-rescue_CC6-1205SR-E-TR-Baja-Components" 0 -100 60 H V C CNN
+F1 "CC6-1205SR-E-TR-Baja-Components" 0 -100 60 H V C CNN
 F2 "" -100 0 60 H I C CNN
 F3 "" 0 100 60 H I C CNN
 F4 "5V" 0 -300 60 H V C CNN "Voltage"
@@ -211,11 +99,11 @@ X +Vout 7 800 -400 200 L 50 50 1 1 I
 ENDDRAW
 ENDDEF
 #
-# TR19-COMP-PD_rev1-rescue_SN74AHCT125_N_14-TR-Baja-Components
+# SN74AHCT125_N_14-TR-Baja-Components
 #
-DEF TR19-COMP-PD_rev1-rescue_SN74AHCT125_N_14-TR-Baja-Components U 0 10 Y Y 1 F N
+DEF SN74AHCT125_N_14-TR-Baja-Components U 0 10 Y Y 1 F N
 F0 "U" 1200 400 60 H V C CNN
-F1 "TR19-COMP-PD_rev1-rescue_SN74AHCT125_N_14-TR-Baja-Components" 1200 300 60 H V C CNN
+F1 "SN74AHCT125_N_14-TR-Baja-Components" 1200 300 60 H V C CNN
 F2 "N14" 1200 240 60 H I C CNN
 F3 "" 0 0 60 H V C CNN
 $FPLIST
@@ -243,11 +131,11 @@ X 3A 9 2400 -500 300 L 59 59 1 0 I
 ENDDRAW
 ENDDEF
 #
-# TR19-COMP-PD_rev1-rescue_SUCW61212B-ND-TR-Baja-Components
+# SUCW61212B-ND-TR-Baja-Components
 #
-DEF TR19-COMP-PD_rev1-rescue_SUCW61212B-ND-TR-Baja-Components DC 0 40 Y Y 1 F N
+DEF SUCW61212B-ND-TR-Baja-Components DC 0 40 Y Y 1 F N
 F0 "DC" -50 100 50 H V C CNN
-F1 "TR19-COMP-PD_rev1-rescue_SUCW61212B-ND-TR-Baja-Components" 0 -50 50 H V C CNN
+F1 "SUCW61212B-ND-TR-Baja-Components" 0 -50 50 H V C CNN
 F2 "" -50 100 50 H I C CNN
 F3 "" -50 100 50 H I C CNN
 DRAW

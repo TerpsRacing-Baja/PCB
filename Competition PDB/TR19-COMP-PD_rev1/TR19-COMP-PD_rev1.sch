@@ -1,6 +1,6 @@
 EESchema Schematic File Version 4
 LIBS:TR19-COMP-PD_rev1-cache
-EELAYER 26 0
+EELAYER 29 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
@@ -15,7 +15,7 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L TR-Baja-Components:SUCW61212B-ND DC1
+L TR19-COMP-PD_rev1-rescue:SUCW61212B-ND-TR-Baja-Components DC1
 U 1 1 5C786F0C
 P 3250 2700
 F 0 "DC1" H 3225 3415 50  0000 C CNN
@@ -26,7 +26,7 @@ F 3 "" H 3200 2800 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L TR-Baja-Components:CC6-1205SR-E DC2
+L TR19-COMP-PD_rev1-rescue:CC6-1205SR-E-TR-Baja-Components DC2
 U 1 1 5C786FA9
 P 5200 2700
 F 0 "DC2" H 5175 3543 60  0000 C CNN
@@ -90,7 +90,7 @@ Text GLabel 4150 2350 1    50   Input ~ 0
 Text GLabel 2150 2600 0    50   Input ~ 0
 PWR_BTN2
 $Comp
-L TR-Baja-Components:ArduinoDue AD1
+L TR19-COMP-PD_rev1-rescue:ArduinoDue-TR-Baja-Components AD1
 U 1 1 5CB9316F
 P 14050 2300
 F 0 "AD1" H 13475 4547 60  0000 C CNN
@@ -1400,7 +1400,7 @@ DIG31
 Text GLabel 3000 5700 2    50   Input ~ 0
 3.3V
 $Comp
-L TR-Baja-Components:SN74AHCT125_N_14 U1
+L TR19-COMP-PD_rev1-rescue:SN74AHCT125_N_14-TR-Baja-Components U1
 U 1 1 5CBD3AB0
 P 8350 850
 F 0 "U1" H 9550 1237 60  0000 C CNN
@@ -1543,7 +1543,7 @@ $EndComp
 Text GLabel 6400 1300 2    50   Input ~ 0
 GND
 $Comp
-L TR-Baja-Components:SN74AHCT125_N_14 U2
+L TR19-COMP-PD_rev1-rescue:SN74AHCT125_N_14-TR-Baja-Components U2
 U 1 1 5CBE249D
 P 8350 2150
 F 0 "U2" H 9550 2537 60  0000 C CNN
@@ -1686,7 +1686,7 @@ $EndComp
 Text GLabel 5800 4150 2    50   Input ~ 0
 GND
 $Comp
-L TR-Baja-Components:SN74AHCT125_N_14 U3
+L TR19-COMP-PD_rev1-rescue:SN74AHCT125_N_14-TR-Baja-Components U3
 U 1 1 5CBE7459
 P 8350 3450
 F 0 "U3" H 9550 3837 60  0000 C CNN
@@ -1829,7 +1829,7 @@ $EndComp
 Text GLabel 5800 5150 2    50   Input ~ 0
 GND
 $Comp
-L TR-Baja-Components:SN74AHCT125_N_14 U4
+L TR19-COMP-PD_rev1-rescue:SN74AHCT125_N_14-TR-Baja-Components U4
 U 1 1 5CBEA6A8
 P 8350 4750
 F 0 "U4" H 9550 5137 60  0000 C CNN
