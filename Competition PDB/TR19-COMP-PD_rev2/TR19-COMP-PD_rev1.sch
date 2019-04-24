@@ -1,6 +1,6 @@
 EESchema Schematic File Version 4
 LIBS:TR19-COMP-PD_rev1-cache
-EELAYER 29 0
+EELAYER 26 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
@@ -39,45 +39,45 @@ PWR_BTN2
 $Comp
 L TR19-COMP-PD_rev1-rescue:ArduinoDue-TR-Baja-Components AD1
 U 1 1 5CB9316F
-P 14050 2300
-F 0 "AD1" H 13475 4547 60  0000 C CNN
-F 1 "ArduinoDue" H 13475 4441 60  0000 C CNN
-F 2 "TR_Library:ARDUINO_DUE_SHIELD_V2" H 13500 3000 60  0001 C CNN
-F 3 "" H 13500 3000 60  0001 C CNN
-	1    14050 2300
+P 9600 3500
+F 0 "AD1" H 9025 5747 60  0000 C CNN
+F 1 "ArduinoDue" H 9025 5641 60  0000 C CNN
+F 2 "TR_Library:ARDUINO_DUE_SHIELD_V2" H 9050 4200 60  0001 C CNN
+F 3 "" H 9050 4200 60  0001 C CNN
+	1    9600 3500
 	1    0    0    -1  
 $EndComp
-Text GLabel 12100 300  0    50   Input ~ 0
+Text GLabel 7650 1500 0    50   Input ~ 0
 12V
-Text GLabel 12100 400  0    50   Input ~ 0
+Text GLabel 7650 1600 0    50   Input ~ 0
 GND
-Text GLabel 12100 700  0    50   Input ~ 0
+Text GLabel 7650 1900 0    50   Input ~ 0
 A0
-Text GLabel 12100 800  0    50   Input ~ 0
+Text GLabel 7650 2000 0    50   Input ~ 0
 A1
-Text GLabel 12100 900  0    50   Input ~ 0
+Text GLabel 7650 2100 0    50   Input ~ 0
 A2
-Text GLabel 12100 1000 0    50   Input ~ 0
+Text GLabel 7650 2200 0    50   Input ~ 0
 A3
-Text GLabel 14850 750  2    50   Input ~ 0
+Text GLabel 10400 1950 2    50   Input ~ 0
 PWM3
-Text GLabel 14850 850  2    50   Input ~ 0
+Text GLabel 10400 2050 2    50   Input ~ 0
 PWM4
-Text GLabel 14850 950  2    50   Input ~ 0
+Text GLabel 10400 2150 2    50   Input ~ 0
 PWM5
-Text GLabel 14850 1050 2    50   Input ~ 0
+Text GLabel 10400 2250 2    50   Input ~ 0
 PWM6
-Text GLabel 14850 1150 2    50   Input ~ 0
+Text GLabel 10400 2350 2    50   Input ~ 0
 PWM7
-Text GLabel 14850 1250 2    50   Input ~ 0
+Text GLabel 10400 2450 2    50   Input ~ 0
 PWM8
-Text GLabel 14850 1350 2    50   Input ~ 0
+Text GLabel 10400 2550 2    50   Input ~ 0
 PWM9
-Text GLabel 14850 1450 2    50   Input ~ 0
+Text GLabel 10400 2650 2    50   Input ~ 0
 PWM10
-Text GLabel 14850 1550 2    50   Input ~ 0
+Text GLabel 10400 2750 2    50   Input ~ 0
 PWM11
-Text GLabel 14850 1650 2    50   Input ~ 0
+Text GLabel 10400 2850 2    50   Input ~ 0
 PWM12
 $Comp
 L Device:R_US R16
@@ -183,13 +183,13 @@ Text GLabel 2700 1450 1    50   Input ~ 0
 A2
 Text GLabel 2700 1800 1    50   Input ~ 0
 A3
-Text GLabel 12100 1100 0    50   Input ~ 0
+Text GLabel 7650 2300 0    50   Input ~ 0
 A4
-Text GLabel 12100 1200 0    50   Input ~ 0
+Text GLabel 7650 2400 0    50   Input ~ 0
 A5
-Text GLabel 12100 1300 0    50   Input ~ 0
+Text GLabel 7650 2500 0    50   Input ~ 0
 A6
-Text GLabel 12100 1400 0    50   Input ~ 0
+Text GLabel 7650 2600 0    50   Input ~ 0
 A7
 $Comp
 L Device:R_US R34
@@ -566,9 +566,9 @@ Text GLabel 750  5350 2    50   Input ~ 0
 GND
 Text GLabel 750  5250 2    50   Input ~ 0
 PWM10
-Text GLabel 14850 650  2    50   Input ~ 0
+Text GLabel 10400 1850 2    50   Input ~ 0
 PWM2
-Text GLabel 14850 550  2    50   Input ~ 0
+Text GLabel 10400 1750 2    50   Input ~ 0
 PWM1
 $Comp
 L Connector:Conn_01x03_Female J5
@@ -796,7 +796,7 @@ Text GLabel 1100 7600 2    50   Input ~ 0
 B3
 Text GLabel 1100 7700 2    50   Input ~ 0
 GND
-Text GLabel 12100 600  0    50   Input ~ 0
+Text GLabel 7650 1800 0    50   Input ~ 0
 3.3V
 $Comp
 L Device:R_US R7
@@ -809,69 +809,69 @@ F 3 "~" H 2300 3600 50  0001 C CNN
 	1    2300 3600
 	0    1    1    0   
 $EndComp
-Text GLabel 14850 1750 2    50   Input ~ 0
+Text GLabel 10400 2950 2    50   Input ~ 0
 DIG1
-Text GLabel 14850 1850 2    50   Input ~ 0
+Text GLabel 10400 3050 2    50   Input ~ 0
 LED1(+)
-Text GLabel 14850 1950 2    50   Input ~ 0
+Text GLabel 10400 3150 2    50   Input ~ 0
 DIG3
-Text GLabel 14850 2050 2    50   Input ~ 0
+Text GLabel 10400 3250 2    50   Input ~ 0
 LED2(+)
-Text GLabel 14850 2150 2    50   Input ~ 0
+Text GLabel 10400 3350 2    50   Input ~ 0
 DIG5
-Text GLabel 14850 2250 2    50   Input ~ 0
+Text GLabel 10400 3450 2    50   Input ~ 0
 LED3(+)
-Text GLabel 14850 2350 2    50   Input ~ 0
+Text GLabel 10400 3550 2    50   Input ~ 0
 DIG7
-Text GLabel 14850 2450 2    50   Input ~ 0
+Text GLabel 10400 3650 2    50   Input ~ 0
 LED4(+)
-Text GLabel 14850 2550 2    50   Input ~ 0
+Text GLabel 10400 3750 2    50   Input ~ 0
 DIG9
-Text GLabel 14850 2650 2    50   Input ~ 0
+Text GLabel 10400 3850 2    50   Input ~ 0
 LED5(+)
-Text GLabel 14850 2750 2    50   Input ~ 0
+Text GLabel 10400 3950 2    50   Input ~ 0
 DIG11
-Text GLabel 14850 2850 2    50   Input ~ 0
+Text GLabel 10400 4050 2    50   Input ~ 0
 LED6(+)
-Text GLabel 14850 2950 2    50   Input ~ 0
+Text GLabel 10400 4150 2    50   Input ~ 0
 DIG13
-Text GLabel 14850 3050 2    50   Input ~ 0
+Text GLabel 10400 4250 2    50   Input ~ 0
 LED7(+)
-Text GLabel 14850 3150 2    50   Input ~ 0
+Text GLabel 10400 4350 2    50   Input ~ 0
 DIG15
-Text GLabel 14850 3250 2    50   Input ~ 0
+Text GLabel 10400 4450 2    50   Input ~ 0
 LED8(+)
-Text GLabel 12100 3300 0    50   Input ~ 0
+Text GLabel 7650 4500 0    50   Input ~ 0
 DIG27
-Text GLabel 12100 3200 0    50   Input ~ 0
+Text GLabel 7650 4400 0    50   Input ~ 0
 DIG26
-Text GLabel 12100 3100 0    50   Input ~ 0
+Text GLabel 7650 4300 0    50   Input ~ 0
 DIG25
-Text GLabel 12100 3000 0    50   Input ~ 0
+Text GLabel 7650 4200 0    50   Input ~ 0
 DIG24
-Text GLabel 12100 2900 0    50   Input ~ 0
+Text GLabel 7650 4100 0    50   Input ~ 0
 DIG23
-Text GLabel 12100 2800 0    50   Input ~ 0
+Text GLabel 7650 4000 0    50   Input ~ 0
 DIG22
-Text GLabel 12100 2700 0    50   Input ~ 0
+Text GLabel 7650 3900 0    50   Input ~ 0
 DIG21
-Text GLabel 12100 2600 0    50   Input ~ 0
+Text GLabel 7650 3800 0    50   Input ~ 0
 DIG20
-Text GLabel 12100 2500 0    50   Input ~ 0
+Text GLabel 7650 3700 0    50   Input ~ 0
 DIG19
-Text GLabel 12100 2400 0    50   Input ~ 0
+Text GLabel 7650 3600 0    50   Input ~ 0
 DIG18
-Text GLabel 12100 2300 0    50   Input ~ 0
+Text GLabel 7650 3500 0    50   Input ~ 0
 DIG17
-Text GLabel 13700 3350 3    50   Input ~ 0
+Text GLabel 9250 4550 3    50   Input ~ 0
 DIG32
-Text GLabel 13600 3350 3    50   Input ~ 0
+Text GLabel 9150 4550 3    50   Input ~ 0
 DIG31
-Text GLabel 13500 3350 3    50   Input ~ 0
+Text GLabel 9050 4550 3    50   Input ~ 0
 DIG30
-Text GLabel 13400 3350 3    50   Input ~ 0
+Text GLabel 8950 4550 3    50   Input ~ 0
 DIG29
-Text GLabel 13300 3350 3    50   Input ~ 0
+Text GLabel 8850 4550 3    50   Input ~ 0
 DIG28
 Text GLabel 2450 3600 2    50   Input ~ 0
 GND
